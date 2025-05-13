@@ -1,7 +1,7 @@
 # 📸 *LoMo-Pipe*: First Open-Sourced Automatic Video QA Annotation Pipeline
 > Larger dataset should **not** be the work only for large group with more resources.
 
-![Pipeline Illustration](./pics/pipeline.png)
+![Pipeline Illustration](pics/pipeline.png)
 
 **LoMo-Pipe** is the first open-sourced LLM-assist video understanding benchmark construction pipeline. Here are four stages for data construction:
 
@@ -83,6 +83,7 @@ modelscope download --model Qwen/Qwen2.5-7B-Instruct
 # 📹 Example Benchmark - LoMo
 
 We utilize this pipeline to form the LoMo Video benchmark with 14,000+ videos. You can find the LoMo benchmark in [HuggingFace](https://huggingface.co/datasets/ryohu053/LoMo_Video_Benchmark).
+
 ![exampledata](pics/dataset.png)
 
 # Acknowledgement
