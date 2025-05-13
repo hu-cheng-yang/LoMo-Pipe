@@ -9,7 +9,7 @@ import re
 import argparse
 
 parser = argparse.ArgumentParser(description="Download videos from Bilibili")
-parser.add_argument('--bvid', type=str, help='Path to the CSV file containing video URLs')
+parser.add_argument('--bvid', type=str, help='bvid number of the video to download')
 parser.add_argument('--output', type=str, help='Output directory for downloaded videos')
 parser.add_argument('--resolution', type=str, default='1080P', help='Resolution for the video download')
 args = parser.parse_args()
